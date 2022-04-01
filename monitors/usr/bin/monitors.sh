@@ -11,6 +11,7 @@ xrandr --setprovideroutputsource 3 0
 xrandr --setprovideroutputsource 4 0
 
 # run xrandr to view names of adapters (DVI-I-1-1, and DP-0)
+xrandr --output DP-0 --primary --auto
 xrandr --output DVI-I-1-1 --above DP-0 --auto   #top monitor
 xrandr --output DVI-D-0 --left-of DP-0 --auto   #left monitor
 xrandr --output HDMI-0 --right-of DP-0 --auto   #right monitor
